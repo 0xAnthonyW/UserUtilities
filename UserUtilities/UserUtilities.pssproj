@@ -7,6 +7,13 @@
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
     <Name>UserUtilities</Name>
+    <ManifestPath>$(OutDir)\$(ProjectName).psd1</ManifestPath>
+    <Guid>34ca35da-075b-49de-996c-3bc73c6b1731</Guid>
+    <PowerShellVersion>
+    </PowerShellVersion>
+    <ProcessorArchitecture />
+    <DebugArguments>
+    </DebugArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
